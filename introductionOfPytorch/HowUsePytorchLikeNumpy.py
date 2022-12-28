@@ -31,3 +31,4 @@ print(tensor_3d.type(torch.float64).dtype)
 #Device
 #if cuda exist?! -> device='cuda'
 vec=torch.tensor([1,2,3],device='cpu')
+vec.cpu()
